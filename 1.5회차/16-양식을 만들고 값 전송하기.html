@@ -1,0 +1,37 @@
+<!--
+<form>은 입력 요소들을 감싸며, 입력 값을 서버 측으로 제출할수 있다.
+    태그의 안에 강의들에서 학습한 여러 입력 태그들을 포함시키면, 
+    해당 입력 요소들은 양식의 개별 항목으로써 역할을 수행한다
+    action : 입력값을 전송할 서버의 url
+    method : 클라이언트가 입력한 데이터를 어떤 식으로 전송할지(GET & POST)
+    - GET : 서버에 요청을 보내어 응답을 받아낸다.
+    (서버로부터 정보를 '가져오겠다'는 성격의 요청이다)
+     POST : 서버에 요청을 보내어 작업을 수행한다.
+     (서버에 있는 데이터를 추가/수정/삭제 한 후에 응답을 받아낸다.)
+     서버의 정보를 '조작하겠다'는 성격의 요청이다
+-->
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>문서의 제목</title>
+    </head>
+    <body>
+        <form action="none.com" method="post">
+            <label for="name">이름</label>
+            <input id="name" type="text" name="name">
+            <br>
+            <label for="age">나이</label>
+            <input id="age" type="number" name="age">
+            <br>
+            <label for="characther">성격</label>
+            <textarea id="characther" name="characther"></textarea>
+            <br>
+            <input type="submit"> <!--서버에 제출하는 코드-->
+        </form>
+    </body>
+</html>
+<!--
+위 코드에서 id는 우리의 웹 페이지 안에서 식별자이고
+name은 서버로 전달된 입력값끼리의 식별자다
+-->
