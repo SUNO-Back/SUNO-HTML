@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+}
+
+html{
+    background-color: rgb(255, 172, 145);
+    font-size: 16px;
+}
+
+body{
+    width: 640px;
+    margin: auto; /* 너비에서 남는 여백을 동일하게 분배*/
+}
+
+h1{
+    font-size: 60px;
+    font-family: "궁서체", sans-serif;
+    color:rgb(73, 88, 88);
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+p{
+    font-size: 1.2rem;
+}
