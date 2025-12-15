@@ -1,0 +1,30 @@
+/* *{
+    box-sizing: border-box
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0%;
+} */
+
+/* 다크모드 */
+body.dark-mode {
+    background-color: #4a4a4a;
+    color: #f0f0f0;
+}
+
+body.dark-mode table {
+    color: #818181;
+}
+
+body.dark-mode .table {
+    background-color: #ffffff;
+}
+
+body.dark-mode .form-select,
+body.dark-mode .form-control {
+    background-color: #ffffff;
+    color: #000000;
+}
